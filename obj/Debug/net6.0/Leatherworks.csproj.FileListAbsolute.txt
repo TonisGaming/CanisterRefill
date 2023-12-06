@@ -1,0 +1,8 @@
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\Leatherworks.csproj.AssemblyReference.cache
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\Leatherworks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\Leatherworks.csproj.CoreCompileInputs.cache
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\bin\Debug\net6.0\Leatherworks.deps.json
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\bin\Debug\net6.0\Leatherworks.dll
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\Leatherworks.dll
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\refint\Leatherworks.dll
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\ref\Leatherworks.dll

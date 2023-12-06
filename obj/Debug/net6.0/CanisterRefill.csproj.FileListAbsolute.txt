@@ -1,0 +1,8 @@
+C:\Users\tonis\Desktop\TLDMod\CanisterRefill\bin\Debug\net6.0\CanisterRefill.deps.json
+C:\Users\tonis\Desktop\TLDMod\CanisterRefill\bin\Debug\net6.0\CanisterRefill.dll
+C:\Users\tonis\Desktop\TLDMod\CanisterRefill\obj\Debug\net6.0\CanisterRefill.csproj.AssemblyReference.cache
+C:\Users\tonis\Desktop\TLDMod\CanisterRefill\obj\Debug\net6.0\CanisterRefill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonis\Desktop\TLDMod\CanisterRefill\obj\Debug\net6.0\CanisterRefill.csproj.CoreCompileInputs.cache
+C:\Users\tonis\Desktop\TLDMod\CanisterRefill\obj\Debug\net6.0\CanisterRefill.dll
+C:\Users\tonis\Desktop\TLDMod\CanisterRefill\obj\Debug\net6.0\refint\CanisterRefill.dll
+C:\Users\tonis\Desktop\TLDMod\CanisterRefill\obj\Debug\net6.0\ref\CanisterRefill.dll

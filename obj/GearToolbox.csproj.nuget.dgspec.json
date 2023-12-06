@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\GearToolbox.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\GearToolbox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\GearToolbox.csproj",
+        "projectName": "GearToolbox",
+        "projectPath": "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\GearToolbox.csproj",
+        "packagesPath": "C:\\Users\\tonis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tonis\\Desktop\\TLDMod\\LeatherScrapeButton\\VisualStudio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tonis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "STBlade.Modding.TLD.Il2CppAssemblies.Windows": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "STBlade.Modding.TLD.ModSettings": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "stblade.Modding.TLD.GearSpawner": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\bin\Debug\net6.0\GearToolbox.deps.json
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\bin\Debug\net6.0\GearToolbox.dll
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\GearToolbox.csproj.AssemblyReference.cache
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\GearToolbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\GearToolbox.csproj.CoreCompileInputs.cache
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\GearToolbox.dll
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\refint\GearToolbox.dll
+C:\Users\tonis\Desktop\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\ref\GearToolbox.dll
