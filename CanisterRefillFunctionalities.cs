@@ -53,26 +53,35 @@ namespace CanisterRefill
             GearItem cloth = GameManager.GetInventoryComponent().GetBestGearItemWithName("GEAR_Cloth");
 
                 if (thisGearItem == null) return;
-                if (charcoal == null || cloth == null)
+                if (charcoal == null)
                 {
                     HUDMessage.AddMessage("This action requires charcoal and cloth");
                     GameAudioManager.PlayGUIError();
                     return;
                 }
-                if (thisGearItem.name == "GEAR_Canister")
+                if (cloth == null)
                 {
-                    if (charcoal.m_StackableItem.m_Units < 10 && cloth.m_StackableItem.m_Units < 10)
-                    {
-                        HUDMessage.AddMessage("This action requires 10 charcoal and 2 cloth");
-                        GameAudioManager.PlayGUIError();
-                        return;
-                    }
+                HUDMessage.AddMessage("This action requires charcoal and cloth");
+                GameAudioManager.PlayGUIError();
+                return;
+                }
+            if (thisGearItem.name == "GEAR_Canister")
+                {
+                if (charcoal.m_StackableItem.m_Units < 10 && cloth.m_StackableItem.m_Units < 2)
+                {
+                    HUDMessage.AddMessage("This action requires 10 charcoal and 2 cloth");
+                    GameAudioManager.PlayGUIError();
+                    return;
+                }
+                if (charcoal.m_StackableItem.m_Units >= 10 && cloth.m_StackableItem.m_Units >= 2)
+                {
                     GameAudioManager.PlayGuiConfirm();
                     InterfaceManager.GetPanel<Panel_GenericProgressBar>().Launch(("Refilling..."), 2f, 0f, 0f,
                                     "PLAY_CRAFTINGGENERIC", null, false, true, new System.Action<bool, bool, float>(OnCanisterRefillFinished));
-                GearItem.Destroy(thisGearItem);
-                GameManager.GetInventoryComponent().RemoveGearFromInventory(charcoal.name, 10);
-                GameManager.GetInventoryComponent().RemoveGearFromInventory(cloth.name, 2);
+                    GearItem.Destroy(thisGearItem);
+                    GameManager.GetInventoryComponent().RemoveGearFromInventory(charcoal.name, 10);
+                    GameManager.GetInventoryComponent().RemoveGearFromInventory(cloth.name, 2);
+                }
             }
                 else
                 {
